@@ -1,0 +1,2 @@
+# 外部ライブラリは使用していません（標準ライブラリのみ）
+# Renderのビルドコマンド: pip install -r requirements.txt
