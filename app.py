@@ -112,7 +112,7 @@ def build_html(bmi: float | None = None, label: str = "", error: str = "") -> st
       <input type="number" id="weight" name="weight" placeholder="例: 65" min="1" max="500" step="0.1">
       <div class="buttons">
         <button type="submit" class="btn-calc">計算する</button>
-        <button type="button" class="btn-clear" onclick="clearForm()">クリア</button>
+        <button type="button" class="btn-clear" onclick="clearForm()">入力をリセット</button>
       </div>
     </form>
     {result_block}
